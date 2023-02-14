@@ -1,0 +1,58 @@
+body{
+    width: fit-content;
+}
+/* Navbar Styling */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul {
+    justify-content: center;
+}
+#navbar ul li a{
+    font-size: 1.3rem;
+    padding: 0px 7px;
+}
+
+/* Home Styling */
+#home h1{
+    font-size: 2.2rem;
+}
+#home p{
+    padding: 5px;
+    font-size: 0.8rem;
+}
+/* Service Styling */
+
+#services-container{
+    margin: 0;
+}
+#services{
+
+    justify-content: space-around;
+}
+
+#services .box{
+    width: 70%;
+
+
+}
+/* Contact Box Styling */
+
+.contact-box form input{
+    width: 80%;
+}
+/* Footer Styling */
+footer div {
+    font-size: 0.6rem;
+    padding: 0px 8px ;
+}
+
+/* Utility Classes */
+.h-primary {
+    padding: 15px;
+    font-size: 2rem;
+   
+}
+.h-secondary {
+    font-size: 1.5rem;
+}
